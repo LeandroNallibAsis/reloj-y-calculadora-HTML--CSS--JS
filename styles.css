@@ -1,0 +1,70 @@
+.calculator {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #screen {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .clock {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    color: #333; /* Color del texto */
+    background-color: #f8f8f8; /* Color de fondo */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  #clock {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #clock:hover {
+    transform: scale(1.1); /* Aumentar tamaño al pasar el cursor */
+  }
+  
+  
